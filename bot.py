@@ -437,7 +437,7 @@ class Titan:
         logined = await self.process_auth_login(email, use_proxy, rotate_proxy)
         if not logined: return
 
-        registered = await self.register_webnodes(email, use_proxy)
+        registered = await self.process_register_webnodes(email, use_proxy)
         if not registered: return
 
         await asyncio.gather(*[
