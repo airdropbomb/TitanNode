@@ -23,10 +23,7 @@ Titan Node BOT
 
 1. **Clone The Repositories:**
    ```bash
-   git clone https://github.com/vonssy/TitanNode-BOT.git
-   ```
-   ```bash
-   cd TitanNode-BOT
+   git clone https://github.com/airdropbomb/TitanNode.git && cd TitanNode
    ```
 
 2. **Install Requirements:**
